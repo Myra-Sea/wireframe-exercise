@@ -1,13 +1,14 @@
 a:link {
-    color: black;
-    text-decoration: none;
+    color: rgb(148, 4, 4);
 }
 
 a:hover {
-    color: whitesmoke;
-    text-decoration: none;
+    color: purple;
 }
 
+a:visited {
+    color: rgb(148, 4, 4);
+  }
 
 header {
     background-color: rgb(148, 4, 4);
@@ -16,12 +17,24 @@ header {
     font-size: 18pt;
 }
 
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
 }
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 
 main {
     display:flex;
@@ -31,6 +44,7 @@ main {
     align-items: center;
     margin: 30px auto;
 }
+
 
 .HeroImage {
     display: flex;
@@ -42,6 +56,7 @@ main {
 .HeroImage img {
     width: 100%;
 }
+
 
 .SubBanner {
     display: flex;
@@ -56,15 +71,30 @@ main {
     width: 100%;
 }
 
+
 .imageAndParagraph {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+    margin: 0 auto;
+    width: 80%;
     gap: 30px;
+    height: 400px;
 }
 
-.call-to-action {
+.imageAndParagraph img {
+    width: 100%;
+    flex: 1;
+}
+
+.imageAndParagraph p {
+    flex: 2;
+    overflow: scroll;
+    font-size: 16pt;
+}
+    /* justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+/* .call-to-action {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -76,7 +106,7 @@ button {
     color: white;
     width: 25%;
     padding: 5px;
-}
+} */
 
 
 footer {
@@ -86,6 +116,3 @@ footer {
     height: 45px;
     border: black solid 1px;
 }
-
-
-
