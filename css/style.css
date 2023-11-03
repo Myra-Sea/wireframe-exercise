@@ -10,6 +10,10 @@ a:visited {
     color: rgb(148, 4, 4);
   }
 
+h1 {
+    font-size: 18pt;
+}
+
 header {
     background-color: rgb(148, 4, 4);
     border: black solid 1px;
@@ -76,7 +80,7 @@ main {
     display: flex;
     margin: 0 auto;
     width: 80%;
-    gap: 30px;
+    gap: 3%;
     height: 400px;
 }
 
@@ -89,25 +93,16 @@ main {
     flex: 2;
     overflow: scroll;
     font-size: 16pt;
-}
-    /* justify-content: space-between;
-    align-items: center;
-    height: 100%;
-
-/* .call-to-action {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 400px;
+    font-style: italic;
+    height: 300px;
 }
 
 button {
-    background-color: black;
-    color: white;
-    width: 25%;
-    padding: 5px;
-} */
-
+height: 40px;
+width: 150px;
+background-color: black;
+color: white;
+}
 
 footer {
     background-color: rgb(148, 4, 4);
